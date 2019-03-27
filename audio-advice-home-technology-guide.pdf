@@ -1,0 +1,25 @@
+Category,Element Tested,Result,Status,What to Check
+
+General,Timestamp,Sun 03/24/19 17:53:55,Success,-
+,Tenant,system,Success,-
+,Region,Oregon,Success,-
+,Hostname,DESKTOP-VFTCG25,Success,-
+,Username,atong,Success,-
+
+Connectivity,Authentication (https://auth.plantronicsmanager.com/oauth/token?api_version=6&grant_type=password&scope=read%20write%20trust&username=4283292374116891091&),OK,Success,-
+,Web API (https://api.pltsystem.plantronicsmanager.com/v6/policy/client),"OK",Success,-
+,File Download,No active device found,Success,-
+
+Polling Cycle,Proxy Detection,None,Success,-
+,Polling Cycle,Every 360 minute(s),Success,-
+,Last Poll,Sun 03/24/19 17:19:36,Success,-
+,Next Poll,Sun 03/24/19 23:53:56,Success,-
+
+LDAP/AD,LDAP Server,"Autodiscovered, , port 0",Fail,-
+,LDAP Server,"Autodiscovered, , port 389",Fail,-
+
+LDAP User Attributes
+
+LDAP Query Groups
+
+Policies,Default (Software Settings),,Success,-
